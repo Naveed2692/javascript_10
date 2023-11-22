@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+// pattern 1
+for (var i=1; i<=5; i++){
+    for (var j=1; j<=i; j++){
+    document.write("*")
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+// pattern 2
+for (var n=1; n<=5; n++){
+    for (var m=1 ; m<=5-n;m++){
+        document.write("&nbsp")
+    }
+
+    for (var k=1; k<=n; k++){
+    document.write("*")
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+// pattern 3
+for (var n=1; n<=5; n++){
+    for (var m=1 ; m<=5-n;m++){
+        document.write("&nbsp&nbsp")
+    }
+
+    for (var k=1; k<=n; k++){
+    document.write("*")
+    }
+    document.write("<br>")
+}
+
+
+
+
+
+
+    </script>
+</body>
+</html>
